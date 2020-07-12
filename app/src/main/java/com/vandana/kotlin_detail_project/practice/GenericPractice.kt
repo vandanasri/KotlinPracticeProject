@@ -40,6 +40,7 @@ class GenericPractice {
             println(x)
         }
     }
+
     fun main(args: Array<String>){
         var name: Company = Company("GeeksforGeeks")
        // var rank: Company = Company(12)// compile time error

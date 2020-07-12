@@ -31,6 +31,8 @@ class DataClassesPractice {
         val d = Decorations("crystal", "wood", "diver")
         val (rock, wood, diver) = d
 
+
+
     }
 
 

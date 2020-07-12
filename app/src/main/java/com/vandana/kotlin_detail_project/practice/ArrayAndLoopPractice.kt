@@ -16,7 +16,6 @@ class ArrayAndLoopPractice {
         val number = intArrayOf(1, 2, 3, 4, 5)
 
 
-
         //we can save multiple type value into untyped array
         val mixArr = arrayOf("A","B", 1, 2)
 
@@ -24,17 +23,12 @@ class ArrayAndLoopPractice {
         Arrays.toString(mixArr)
 
 
-
-
         //Nested Array
         arrayOf(alphabet, arrayOf("Hello"), mixArr)
 
 
-
         //Assigning of array
-
         val array =  Array(5)  {it * 2}
-
         println(array.asList())
 
         //output is [0,2,4,6,8]

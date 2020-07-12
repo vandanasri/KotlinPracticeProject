@@ -5,6 +5,7 @@ package com.vandana.kotlin_detail_project.practice
 
 data class Fish(var name:String)
 
+//Higher-order functions are functions that take other functions as arguments or return functions as their results.
 
 class HigherOrderFuncionsPractice {
 
@@ -31,6 +32,7 @@ class HigherOrderFuncionsPractice {
         print(fish.apply {  })
 
         //output: Fish(name=splashy)
+
         //Gold Fish
         val fish2:Fish = Fish("Splashy").apply {name= "Gold Fish" }
         print(fish2.name)

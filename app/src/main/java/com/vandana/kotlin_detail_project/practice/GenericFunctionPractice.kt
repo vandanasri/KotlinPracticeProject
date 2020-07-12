@@ -16,6 +16,7 @@ class GenericFunctionPractice {
 
     //fun <R: WaterSupply> hasWaterSupplyOfType() = waterSupply is R
 
+    //Java loses information of their generics at runTime. So to not to lose the information of the generic we use reified
 
 //reified type/real type R: it checks whether the data is as real type or not in generic at compile time. Don't have to check explicitly
 
@@ -24,4 +25,12 @@ class GenericFunctionPractice {
 
     //here say it take any generic typr no matter what generic type it is
     inline fun <reified R: WaterSupply> GenericPractice.Aquarium<*>.hasWaterSupplyOfType() = waterSupply is R
+
+
+
+    // we cannot use generic type inside of a function.
+    // So gson.fromJson(json, typeToken) internally it is of generic type.
+    // Only way to set type as an argument then we use it as a function
+
+
 }

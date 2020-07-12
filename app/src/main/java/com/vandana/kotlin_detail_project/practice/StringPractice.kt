@@ -23,6 +23,7 @@ class StringPractice {
         val msg = "The temprature is ${ if(temp>50) "yes" else "no"} ."
 
 
+
         //boolean check
         str1 == str2 //return false
 
@@ -40,6 +41,13 @@ class StringPractice {
             50 ->"full tank"
             else -> print("perfect")
         }
+
+        when(fish){
+             in 0..10->"empty tank"
+            in 20..50 ->"full tank"
+            else -> print("perfect")
+        }
+
 
 
 

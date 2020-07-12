@@ -6,6 +6,9 @@ package com.vandana.kotlin_detail_project.practice
 //https://www.geeksforgeeks.org/kotlin-inline-functions/
 
 
+//Inline are substitute to the call of the function.
+// When we compile the code in bytecode it replaces the call of the function with the lines written as it is in the function
+
 class InlineClassesPractice {
 
     data class Fish(var name:String)
