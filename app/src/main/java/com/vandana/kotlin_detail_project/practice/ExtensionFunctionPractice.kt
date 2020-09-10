@@ -3,6 +3,7 @@ package com.vandana.kotlin_detail_project.practice
 class ExtensionFunctionPractice {
     //type of util functions
     //Extension functions allow to add existing class without having access to its source code
+    //The ability to extend the class with new functionality without having to inherit the property from the class.
 
     fun String.hasSpace() = find{it ==' '}!= null //Extension function
 

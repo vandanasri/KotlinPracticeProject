@@ -5,7 +5,7 @@ const val value = 5
 
 //difference between val and const val is
 //const val assign values at compile time whereas at val values assign at runtime or during program execution
-// For const val cannot assign the return value from a function as its value where as in val we can i.e.
+// For const val cannot assign the return value from a function as its value, where as in val we can i.e.
 fun test(){}
 val result= test()
 

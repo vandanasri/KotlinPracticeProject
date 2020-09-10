@@ -1,9 +1,12 @@
 package com.vandana.kotlin_detail_project.practice
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.core.graphics.toColor
 
 class Operators {
 
+    @RequiresApi(Build.VERSION_CODES.O)
     fun operatorsPractice() {
 
         //operators provide automatically

@@ -2,6 +2,7 @@ package com.vandana.kotlin_detail_project.practice
 
 //we have a class with a specific number of subclasses.
 // What we get in the end is a concept very similar to an enum.
+//Enum represents a group of constants .
 // The difference is that in the enum we only have one object per type,
 // while in the sealed classes we can have several objects of the same class.
 //https://antonioleiva.com/sealed-classes-kotlin/
